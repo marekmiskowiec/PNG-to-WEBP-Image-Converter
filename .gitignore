@@ -1,0 +1,38 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore environment files
+env/
+venv/
+*.env
+*.venv
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore image output directory
+output_images/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore Jupyter Notebook checkpoints (if using notebooks)
+.ipynb_checkpoints/
+
+# Ignore GitHub specific files (optional)
+.github/
+
+# Ignore virtual environment created by Poetry (optional)
+.poetry/
+
+# Ignore bytecode files
+*.pyo
+
+# Ignore any compiled libraries
+*.so
+*.dll
+*.dylib
+*.pyd
